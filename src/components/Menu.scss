@@ -1,0 +1,45 @@
+.menu{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(78, 54, 124, 0.9),rgba(67, 6, 108,0095));
+    position: fixed;   
+    top: 0;
+    right: -110vw;
+    z-index: 1000000;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &.active{
+       right: 0;
+        }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 30px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li{
+        margin-bottom: 15px;
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: inherit;
+        }
+        &:hover{
+            font-weight: 500;
+        }
+       
+    }
+   
+
+}

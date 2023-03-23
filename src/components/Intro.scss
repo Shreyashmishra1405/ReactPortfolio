@@ -1,0 +1,88 @@
+.Intro {
+  display: flex;
+  position: relative;
+  background-color: white;
+  .left {
+    flex: 0.4;
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      padding-left: 50px;
+      h1 {
+        font-size: 50px;
+        margin: 10px 0px;
+        color: rgb(237, 142, 158);
+        cursor: pointer;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      h2 {
+        font-size: 35px;
+        color: white;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      font-size: 30px;
+
+      span {
+        font-size: 35px;
+        color: white;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      .download {
+        width: 50%;
+        margin-top: 20px;
+        .resume {
+          width: 50%;
+          padding: 10px;
+          background-color: rgb(203, 88, 108);
+          color: white;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 14px;
+          &:hover {
+            border: 1px solid white;
+          }
+        }
+      }
+    }
+  }
+
+  .right {
+    flex: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: auto;
+    img {
+      cursor: pointer;
+      height: 600px;
+      animation: animate infinite 2s ease alternate;
+      z-index: 2;
+    }
+    svg {
+      animation: animate infinite 2s ease alternate;
+      margin: 0 auto;
+      width: 63%;
+      height: auto;
+      position: absolute;
+      z-index: 1;
+    }
+  }
+}
+
+@keyframes animate {
+  to {
+    transform: translateY(30px);
+  }
+}
