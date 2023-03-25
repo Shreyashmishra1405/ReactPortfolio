@@ -2,7 +2,6 @@ import React from "react";
 import "./Portfolio.scss";
 import Skillobj from "./Skillobj";
 import Skillobj2 from "./Skillobj2";
-import Earth from "./Earth"
 export default function Portfolio() {
   return (
     <div className="Portfolio" id="portfolio">
