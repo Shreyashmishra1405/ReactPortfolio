@@ -1,11 +1,9 @@
 import React from "react";
-import Computer from "./Computer";
 import "./Works.scss";
 export default function Works() {
   return (
     <div className="Works" id="works">
       <div className="left">
-        <Computer />
       </div>
       <div className="right">
         <h2>My Projects</h2>
@@ -43,7 +41,7 @@ export default function Works() {
           <p>
             Description:
             <br />
-            This is a clone of Netflix website built using as a Front-end . It’s
+            This is a clone of Netflix website built using as a Front-end . It's
             a similar version of Netflix with my own design touch, showing my
             abilities in React.JS to build something advanced like Netflix.It
             was created with React.js and CSS and React-Router. It uses The
@@ -52,9 +50,9 @@ export default function Works() {
         </div>
         <div className="html">
           <h3>
-            Basic Portfolio Website
+            MyTodoApp
             <span>
-              <a href="https://github.com/Shreyashmishra1405/portfolio.github.io">
+              <a href="https://shreyashmishra1405.github.io/mytodoapp/">
                 Link
               </a>
             </span>
@@ -63,9 +61,8 @@ export default function Works() {
           <p>
             Description:
             <br />
-            Created a simple Portfolio website using Html, CSS and Bootstrap
-            Framework. The site is completely responsive.
-
+            Created a todo app where user can add or delete a particular task. 
+            
           </p>
         </div>
       </div>

@@ -66,17 +66,19 @@
     margin: auto;
     img {
       cursor: pointer;
-      height: 600px;
+      max-height: 500px;
       animation: animate infinite 2s ease alternate;
       z-index: 2;
+      padding-left: 4rem;
     }
     svg {
       animation: animate infinite 2s ease alternate;
       margin: 0 auto;
       width: 63%;
-      height: auto;
+      // height: auto;
       position: absolute;
       z-index: 1;
+      padding-right: 3rem;
     }
   }
 }

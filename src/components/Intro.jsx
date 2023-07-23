@@ -1,9 +1,9 @@
 import React from "react";
-
 import "./Intro.scss";
-
+import Resume from '../Resume.pdf';
 import Typewriter from "typewriter-effect";
 export default function Intro() {
+
   return (
     <div className="Intro" id="intro">
       <div className="left">
@@ -13,14 +13,23 @@ export default function Intro() {
           <span>
             <Typewriter
               options={{
-                strings: ["Web Developer", "React.Js", "Frontend Dev", "Linux"],
+                strings: ["Web Developer", "React.Js", "Frontend Dev"],
                 autoStart: true,
                 loop: true,
               }}
             />
           </span>
           <div className="download">
-            <button className="resume">Download Resume</button>
+            <a href={Resume}
+              download="Resume"
+              // target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              <button className="resume" >
+                Download Resume
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -39,11 +48,7 @@ export default function Intro() {
             y2="0%"
           >
             <stop offset="0%" stopColor="rgb(950,54,152)" stopOpacity="1" />
-            <stop
-              offset="100%"
-              stopColor="rgb(247,109,138)"
-              stopOpacity="1"
-            />
+            <stop offset="100%" stopColor="rgb(12,1,168)" stopOpacity="1" />
           </linearGradient>
           <path fill="url(#PSgrad_0)">
             <animate
@@ -55,7 +60,7 @@ export default function Intro() {
           </path>
         </svg>
         <img
-          src="https://github.com/safak/youtube23/blob/3d-portfolio/public/img/moon.png?raw=true"
+          src="https://raw.githubusercontent.com/od1na/personal-website/c131d0f2e6053a485e497414cf999d9be075f53e/src/assets/img/header-img.svg"
           alt=""
         />
       </div>

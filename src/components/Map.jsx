@@ -13,7 +13,7 @@ const geoUrl =
 const MapChart = () => {
   return (
     <ComposableMap projectionConfig={{ scale: 120 }} style={{cursor:"pointer"}}>
-      <Sphere stroke="black" strokeWidth={2} />
+      <Sphere stroke="#2C065D" strokeWidth={2} />
       <Geographies geography={geoUrl}>
         {({ geographies }) =>
           geographies.map((geo) => (
@@ -32,7 +32,7 @@ const MapChart = () => {
           strokeLinecap: "round"
         }}
       >
-        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="white">
+        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="pink">
           {"I'm here"}
         </text>
       </Annotation>

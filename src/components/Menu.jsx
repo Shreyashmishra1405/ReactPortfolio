@@ -8,9 +8,9 @@ export default function Menu({menu,setMenu})
         <li>
             <a href="#intro" onClick={()=>setMenu(false)}>Home</a>
         </li>
-        <li>
+        {/* <li>
             <a href="#portfolio" onClick={()=>setMenu(false)}>Portfolio</a>
-        </li>
+        </li> */}
         <li>
             <a href="#works" onClick={()=>setMenu(false)}>Works</a>
         </li>
