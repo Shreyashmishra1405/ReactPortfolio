@@ -1,9 +1,11 @@
 .app {
   height: 100vh;
+  background-image: url(https://github.com/od1na/personal-website/blob/master/src/assets/img/banner-bg.png?raw=true);
+
   .sections {
     width: 100%;
     height: calc(100vh - 70px);
-    background-color: rgb(130, 114, 154);
+    // background-color: rgb(130, 114, 154);s
     position: relative;
     top: 70px;
     scroll-behavior: smooth;
@@ -12,7 +14,6 @@
       display: none;
     } 
        > * {
-      background-image: url(https://github.com/od1na/personal-website/blob/master/src/assets/img/banner-bg.png?raw=true);
       width: 100vw;
       height: calc(100vh - 70px);
       scroll-snap-align:start;

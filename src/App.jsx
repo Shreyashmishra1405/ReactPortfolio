@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar";
 import "./App.scss";
 import Intro from "./components/Intro";
-import Portfolio from "./components/Portfolio";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
 import { useState } from "react";
