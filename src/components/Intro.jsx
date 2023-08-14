@@ -22,7 +22,6 @@ export default function Intro() {
           <div className="download">
             <a href={Resume}
               download="Resume"
-              // target="_blank"
               rel="noreferrer"
             >
               {" "}

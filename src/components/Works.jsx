@@ -1,13 +1,26 @@
 import React from "react";
 import "./Works.scss";
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
+
 export default function Works() {
   return (
     <div className="Works" id="works">
       <div className="left">
+        <div className="img1">
+          <img src={project1} alt="" />
+          <img src={project2} alt="" />
+        </div>
+        <div className="img2">
+          <img src={project3} alt="" />
+          <img src={project4} alt="" />
+        </div>
       </div>
       <div className="right">
         <h2>My Projects</h2>
-        
+
         <div className="weather">
           <h3>
             Weather APP{" "}
@@ -28,7 +41,7 @@ export default function Works() {
             Api for fetching data and display it in the site.
           </p>
         </div>
-       
+
         <div className="netflix">
           <h3>
             Netflix Clone{" "}
@@ -52,17 +65,14 @@ export default function Works() {
           <h3>
             MyTodoApp
             <span>
-              <a href="https://shreyashmishra1405.github.io/mytodoapp/">
-                Link
-              </a>
+              <a href="https://shreyashmishra1405.github.io/mytodoapp/">Link</a>
             </span>
           </h3>
           <br />
           <p>
             Description:
             <br />
-            Created a todo app where user can add or delete a particular task. 
-            
+            Created a todo app where user can add or delete a particular task.
           </p>
         </div>
       </div>
